@@ -4,11 +4,11 @@ import sys
 import pandas as pd
 import psycopg2
 
-# Professional Data Engineering Practice: Fetch credentials from the OS environment
+# Fetch credentials from the local terminal environment
 DB_PARAMS = {
     "dbname": os.getenv("NAV_DB_NAME", "nav_wh_db"),
     "user": os.getenv("NAV_DB_USER", "qasim"),
-    "password": os.getenv("NAV_DB_PASSWORD", ""),  # Pulls securely from your local system
+    "password": os.getenv("NAV_DB_PASSWORD", ""),
     "host": os.getenv("NAV_DB_HOST", "localhost"),
     "port": os.getenv("NAV_DB_PORT", "5432")
 }
@@ -18,7 +18,7 @@ def connect_db():
         return psycopg2.connect(**DB_PARAMS)
     except Exception as e:
         print(f"Database connection error: {e}")
-        print("Tip: Ensure you have exported NAV_DB_PASSWORD in your terminal session.")
+        print("Tip: Ensure you have exported NAV_DB_PASSWORD or that peer access is allowed.")
         sys.exit(1)
 
 def load_production_pipeline_data(pipeline_root_path):
