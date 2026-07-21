@@ -1,0 +1,3 @@
+# Ensure GitHub Linguist correctly detects SQL as a project language
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
