@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./license)
+
 # Neurodysbiosis-Associated Viral Metagenome Analytics Warehouse (NAV-WH)
 
 A PostgreSQL star-schema analytics warehouse designed to store, query, and compare viral metagenome operational taxonomic unit (vOTU) read-recruitment metrics from comparative neurodysbiosis viromics experiments.
@@ -141,4 +143,4 @@ psql -d nav_wh_db -f queries/03_high_confidence_votus_view.sql
 
 ## License
 
-This project is provided for academic and research use.
+This project is licensed under the [MIT License](./license). You are free to use, modify, and distribute this software for academic, research, or commercial purposes. See the [license](./license) file for full terms.
