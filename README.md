@@ -4,7 +4,7 @@
 
 A PostgreSQL star-schema analytics warehouse designed to store, query, and compare viral metagenome operational taxonomic unit (vOTU) read-recruitment metrics from comparative neurodysbiosis viromics experiments.
 
-## Study Context
+## Context
 
 This warehouse is designed to ingest data from the **Modular Viromics Pipeline (MVP)** applied to whole metagenome sequencing data from [Sharon et al. 2019](https://doi.org/10.1016/j.cell.2019.05.004), *Cell* 177(3):600-618.
 
