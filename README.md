@@ -69,7 +69,7 @@ NAV-WH/
 
 ## Setup
 
-### Prerequisites
+### Pre-requisites
 
 - PostgreSQL 14+
 - Python 3.8+ with `pandas` and `psycopg2-binary`
