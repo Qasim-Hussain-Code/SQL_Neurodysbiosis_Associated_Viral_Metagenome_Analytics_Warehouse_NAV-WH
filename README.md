@@ -143,4 +143,4 @@ psql -d nav_wh_db -f queries/03_high_confidence_votus_view.sql
 
 ## License
 
-This project is licensed under the [MIT License](./license). You are free to use, modify, and distribute this software for academic, research, or commercial purposes. See the [license](./license) file for full terms.
+This project is licensed under the [MIT License](./license). You are free to use, modify, and distribute this for academic, research, or commercial purposes. See the [license](./license) file for full terms.
